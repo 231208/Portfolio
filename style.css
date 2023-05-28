@@ -1,0 +1,267 @@
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Nav Bar coding */
+nav{
+    display: flex;
+    position: fixed;
+    top: 0.1%;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(201, 201, 241);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(240, 101, 8);
+    font-size: 1.6rem;
+    text-decoration: underline;
+    transition: 2s;
+}
+
+
+.left{
+    font-size: 2rem;
+}
+
+/* First section design */ 
+ .first-section .left-section .time-btn{
+    align-items: center;
+    justify-content: center;
+    height: 29px;
+    width: 72px;
+    border-radius: 2px;
+    border-style: solid;
+    margin-left: 32%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: tomato;
+    background: levender;
+    background: wheat;
+}
+
+#demo{
+    font-size: 1.2rem;
+    font-style: normal;
+    font-display: smooth;
+    color: bisque;
+}
+
+.first-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 0;
+    transition: 1s;
+}
+
+.first-section > div{
+    width: 47%;
+}
+
+.left-section{
+    
+    font-size: 3rem;
+}
+
+.right-section img{
+    width: 80%;
+}
+
+.purple {
+    color: rgb(217, 191, 241);
+    font-weight: bold;
+}
+
+.purple:hover{
+    transition: 1s;
+    color: greenyellow;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#element{
+    color: lavender;
+    font-weight: bold;
+}
+
+/* About me */
+.about-me{
+    height: 400px;
+}
+
+.about-me h1{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.about-me .main-div{
+    display: flex;
+}
+
+.about-me .main-div .about-main{
+    height: 173px;
+    width: 359px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+    margin-left: 14%;
+    margin-top: 5%;
+}
+
+.about-me .main-div .my-img .my-img-pm{
+    margin-top: 8%;
+    height: 350px;
+    width: 350px;
+    border-radius: 194px;
+    margin-left: 108%;
+  }
+
+
+/* Main Hr Section Design */
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px;
+}
+
+/* second section design */ 
+
+.second-section{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.text-gray{
+    color: gray;
+}
+
+.second-section h1{
+    font-size: 1.6rem;
+}
+
+.second-section .boxa{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.second-section .vertical{
+    height: 50px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.image-top{
+    position: relative;
+    width: 32px;
+    top: -32px;
+    left: 2px;
+}
+
+.vertical-title{
+    position: relative;
+    top: 5px;
+    width: 170px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.vertical-desc{
+    position: relative;
+    top: 9px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+}
+
+/* Sticky Bar Coding */
+.icon-bar{
+    position: fixed;
+    top: 80%;
+    margin-left: 93%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+
+.icon-bar a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 40px;
+    
+}
+
+
+/* Footer Section */
+footer{
+    background-color: #0e0e1a;
+    height: 233px;
+}
+
+.post-img{
+    height: 129px;
+    width: 322px;
+    margin-top: -26px;
+    border-radius: 20px;
+    border:2px solid #e30f0f;
+}
+
+.flex{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.flex ul{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+ul li a:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 1s;
+    background-color: azure;
+    border-radius: 2px;
+}
+
